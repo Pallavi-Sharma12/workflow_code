@@ -23,7 +23,7 @@ jobs:
         SSH_USER=${{ secrets.SSH_USERNAME }}
         EC2_IP="ec2-3-10-169-97.eu-west-2.compute.amazonaws.com"
         SOURCE_DIR="./"
-        DEST_DIR="/home/ec2-user/"
+        DEST_DIR="/home/ec2-user/pythonCode/"
 
         rsync -avz -e "ssh -o StrictHostKeyChecking=no" --exclude='.git' --exclude='.github' $SOURCE_DIR $SSH_USER@$EC2_IP:$DEST_DIR
       env:
