@@ -36,7 +36,7 @@ This application uses SQLite and Python to Fetch and Add Employee ID and Name in
 
 
 # How to Execute the GET and POST request
-Use below commands to run GET and POST request -
+Use below commands to run GET and POST request ->
 
 
 ## GET Request
