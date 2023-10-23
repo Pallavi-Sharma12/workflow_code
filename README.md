@@ -19,7 +19,9 @@ Once any code is merged or pushed to the `main` branch, corresponding code is de
 
 
 # Application Overview
-This application uses SQLite and Python to Fetch and Add Employee ID and Name in the database created using Flask GET and POST API method technique.
+This application uses SQLite and Python to Fetch and Add Employee ID and Name in the SQLite database created using Flask GET and POST API method technique.
+- With `GET` request, code fetches all the employee data [employee-id] or [employee-name] from the database and return.
+- With `POST` request, employee data like ID and Name is inserted in the database for further use.
 
 
 # Tools Used 
