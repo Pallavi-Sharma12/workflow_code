@@ -21,7 +21,7 @@ jobs:
     - name: Deploy code to EC2
       run: |
         SSH_USER=${{ secrets.SSH_USERNAME }}
-        EC2_IP="ec2-3-10-169-97.eu-west-2.compute.amazonaws.com"
+        EC2_IP="18.170.214.203"
         SOURCE_DIR="./"
         DEST_DIR="/home/ec2-user/pythonCode/"
 
